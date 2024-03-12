@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bec4e0e9.css",
+    "main.js": "/static/js/main.a7b42bbd.js",
+    "static/js/453.5b5c19da.chunk.js": "/static/js/453.5b5c19da.chunk.js",
+    "static/media/earthtexture.jpg": "/static/media/earthtexture.981cc3e3660e809249a3.jpg",
+    "index.html": "/index.html",
+    "main.bec4e0e9.css.map": "/static/css/main.bec4e0e9.css.map",
+    "main.a7b42bbd.js.map": "/static/js/main.a7b42bbd.js.map",
+    "453.5b5c19da.chunk.js.map": "/static/js/453.5b5c19da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bec4e0e9.css",
+    "static/js/main.a7b42bbd.js"
+  ]
+}
