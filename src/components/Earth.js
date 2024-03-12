@@ -8,11 +8,6 @@ import FastFilter from './FastFilter';
 
 import { satellitesInventory } from "../satellite.js";
 
-// Bypass CORS
-function getCorsFreeUrl(url) {
-    return 'https://api.allorigins.win/raw?url=' + url;    
-}
-
 
 class Earth extends Component {
 
@@ -108,7 +103,7 @@ class Earth extends Component {
     }
 
     addStations = async () => {
-        await this.engine.loadLteFileStations(getCorsFreeUrl('http://www.celestrak.com/NORAD/elements/active.txt'), 0xffffff)
+        await this.engine.loadLteFileStations('https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle', 0xffffff)
             .then(stations => {
                 this.setState({
                     'stations': stations,
